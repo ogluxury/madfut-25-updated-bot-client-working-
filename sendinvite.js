@@ -13,8 +13,10 @@ await set(invref, {
     t: serverTimestamp()
 })
 console.log('invited user!')
+console.log('ogluxury. on github')
 }
 let {app, auth, db} = await authh()
 let {idtoken1, accuid, accname} = await login()
 let inviteuid = await uidd('00kairo0', idtoken1)
+
 await invite(db, accuid, inviteuid, accname)
