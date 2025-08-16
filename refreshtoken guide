@@ -1,0 +1,19 @@
+Required things:
+- An iOS device
+- Madfut
+- proxyman app
+
+If you didn't install proxyman this is the link: https://apps.apple.com/it/app/proxyman-network-debug-tool/id1551292695
+
+How to get the refresh:
+
+- Log out from madfut
+- Open proxyman and start it
+- Log into madfut with the account from where you want the refresh 
+- Stop proxyman 
+- search into the proxyman's search bar: oauth2.googleapis.com
+- click the one on top that end in /token 
+- click reponse
+- click view body 
+- copy the refresh token 
+- enjoy your token
