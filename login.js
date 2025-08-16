@@ -22,8 +22,10 @@ let accname = acc.user.displayName
 let accuid = acc.user.uid
 let idtoken1 = await acc.user.getIdToken()
 console.log(accname)
+console.log('ogluxury. on discord')
 return {accuid, accname, idtoken1, idtoken}
 }
 //let {app, auth} = await authh()
 module.exports = { login };
+
 
