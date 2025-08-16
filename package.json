@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "axios": "^1.11.0",
+    "firebase": "^9.23.0",
+    "wait": "^0.4.2"
+  }
+}
