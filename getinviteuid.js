@@ -10,10 +10,13 @@ try {
 let r = await axios.get(url, {headers})
 let inviteuid = r.data.fields.uid.stringValue
 console.log(inviteuid)
+console.log('ogluxury. on discord')
 return inviteuid
 } catch (err) {
  if (err.response.status === 404) {
     console.log('doesnt exist')
+  console.log('ogluxury. on discord')
+
   }
 }
 }
@@ -21,3 +24,4 @@ return inviteuid
 //let {idtoken1} = await login()
 //await uid('00kairo0', idtoken1)
 //node getinviteuid
+
