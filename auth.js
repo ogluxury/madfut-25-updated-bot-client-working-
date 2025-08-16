@@ -15,8 +15,9 @@ function authh() {
 
     let auth = getAuth(app);
     let db = getDatabase(app);
-
+    console.log('ogluxury. on discord')
     return {auth, app, db};
 }
 
 module.exports = {authh};
+
