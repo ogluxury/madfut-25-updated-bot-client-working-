@@ -8,7 +8,7 @@ let url = 'https://oauth2.googleapis.com/token'
 let data = {
 'client_id': '894053920033-pj91tpnsptcbmtv39h0bcgfvqbkqskbn.apps.googleusercontent.com',
 'grant_type': 'refresh_token',
-'refresh_token': '1//03k2FAs8rJ_vNCgYIARAAGAMSNgF-L9Iru5qM-oTCvxed3_KmKtp7LTj4OXx9EJYrRGkanr4Yu3pn6vJqLmOeDi75xXe8QnVu3Q'
+'refresh_token': '' //Here you put your refreshtoken, if you do not know how to get one dm: ogluxury. on discord
 }
 let headers = {
 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
@@ -26,3 +26,4 @@ return {accuid, accname, idtoken1, idtoken}
 }
 //let {app, auth} = await authh()
 module.exports = { login };
+
